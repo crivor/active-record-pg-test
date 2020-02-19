@@ -1,0 +1,2 @@
+class ComplexUser < ApplicationRecord
+end
