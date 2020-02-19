@@ -7,7 +7,7 @@ class CreateComplexUsers < ActiveRecord::Migration[6.0]
       t.bigint :atoms
       t.integer :lucky_numbers, array: true
       t.string :tags, array: true
-      t.jsonb :foriegn_accounts, default: {}
+      t.jsonb :foreign_accounts, default: {}
 
       t.timestamps
     end
